@@ -1,12 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Bootstrap 5.1.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/viajes.svg">
+    <title>Viajes-Chile</title>
+
 </head>
 <body>
+    <!-- Navegación -->
+    <div id="inicio">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-img">
+            <div class="container-fluid" id="navbar">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/viajes.svg" width="80px" alt="logo"> Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin Navbar -->
+
+        <img src="assets/img/carousel1.jpg" alt="img-pq" class="img-pq">
+
+        <!-- Carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <!-- imágenes -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+                </div>
+            </div>
+            <!-- Botones prev y next -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div> <!-- Fin Navegación -->
+
+    <main class="main">
+        <!-- Sección Quienes Somos -->
+        <article class="contenedor_qs">
+            <div id="quienes-somos">
+                <h1>¿Quiénes Somos?</h1>
+                <hr class="hrmain">
+                <div class="grid_qs">
+                    <div class="column_qs">
+                        <i class="fas fa-plane fa-3x favicon_qs"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam maiores eveniet omnis ratione impedit perspiciatis maxime vero totam suscipit soluta accusantium, culpa sed veritatis in saepe ullam praesentium, atque ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo asperiores qui labore minus? Officiis autem odio nisi maxime aspernatur dolores fugiat, vero nam molestias! Reiciendis maiores quos reprehenderit totam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, vero voluptatibus delectus, adipisci placeat doloremque, incidunt in perferendis nam facilis excepturi accusantium tempora ut fugit ab doloribus iure recusandae eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quae esse mollitia eligendi ullam doloremque ea sit, nobis incidunt blanditiis, architecto repellat omnis qui voluptates rerum minus eveniet maxime veniam.</p>
+                    </div>
+                    <div class="column_qs">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquam, dolore ducimus neque aut tempore unde? Harum pariatur natus alias fugiat aliquid possimus accusantium quidem sequi amet ducimus, in quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam voluptatibus non provident. Aliquam delectus officiis sed deleniti harum ad eos, quo voluptatibus similique praesentium, nemo odio tempora! Asperiores, tempora dolorem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus incidunt architecto quasi perspiciatis rerum, voluptas dolor ullam ipsam placeat! Aliquam alias illum, adipisci provident similique explicabo laboriosam aperiam necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rerum voluptas cupiditate perferendis ullam nisi vel porro voluptatum quibusdam sed numquam beatae dicta error dolores quae fugit quaerat, ab quo.</p>
+                        <i class="fas fa-triangle fa-3x favicon_qs"></i>
+                    </div>
+                    <div class="column_qs">
+                        <i class="fas fa-route fa-3x favicon_qs"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquam, dolore ducimus neque aut tempore unde? Harum pariatur natus alias fugiat aliquid possimus accusantium quidem sequi amet ducimus, in quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolor totam. Ratione vel suscipit inventore sequi assumenda commodi quo atque eaque sunt quod, aliquid ab ad quos optio? Dolor, ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla veniam omnis! Explicabo, vitae sapiente quod, autem repudiandae obcaecati distinctio numquam nihil ducimus eaque veritatis, perferendis animi omnis similique. Provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima impedit nesciunt temporibus eum doloribus architecto. Totam labore eaque, reprehenderit ad blanditiis dolorum. Quaerat exercitationem incidunt veniam autem tenetur repudiandae unde.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sección destacados -->
+        <article class="contenedor_destacados">
+            <div id="destacados">
+                <h1>Destacados</h1>
+                <hr class="hrmain">
+                <div class="grid_destacados">
+                    <!-- card 1 -->
+                    <div class="card">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Montañas Verdes</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.<p>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
+                        <div class="card-body">
+                            <h5 class="card-title">Lago en el desierto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.<p>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
+                        <div class="card-body">
+                            <h5 class="card-title">Río en el desierto</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.<p>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
+                        <div class="card-body">
+                            <h5 class="card-title">Camino en el bosque</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.<p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <hr class="hrmainf">
+        <!-- Sección contacto -->
+        <article class="formulario">
+            <div id="contacto">
+                <div class="contenedor_formulario">
+                    <h1>Contáctanos</h1>
+                    <!-- Botón con Tooltip -->
+                    <button type="button" data-bs-toggle="tooltip" data-bs-placement="right" title="Ir al formulario" class="btn btn-outline-secondary"><a href="https://form.typeform.com/to/cN9xHhUY?typeform-embed-id=8150474771335424&typeform-embed=embed-widget&typeform-source=127.0.0.1&typeform-medium=embed-sdk&typeform-medium-version=next&embed-hide-headers=true">Comenzar</a></button>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="contenedor_footer">
+            <span class="titulo_footer">Viajes Chile</span>
+            <div class="contenedor_logos">
+                <a href="https://github.com/"><i class="fab fa-github-square"></i></a> 
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a> 
+                <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a> 
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a> 
+            </div>
+        </div>
+    </footer>
+
+
     
+    <!-- Typeform -->
+    <script src="//embed.typeform.com/next/embed.js"></script>
+    <!-- popper -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- Script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- mi script -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
